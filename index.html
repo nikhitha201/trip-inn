@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Trip In</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<section class="welcome">
+
+<div class="overlay">
+
+<h1>TRIP IN</h1>
+
+<p>
+Your Hyderabad Travel Companion
+</p>
+
+<button id="startBtn">
+
+Welcome To Trip-In
+
+</button>
+
+</div>
+
+</section>
+
+<section id="planner">
+
+<h2>Plan Your Hyderabad Journey</h2>
+
+<input
+type="text"
+placeholder="Search Hyderabad..."
+class="search"
+>
+
+<select id="duration">
+
+<option value="">
+Choose Duration
+</option>
+
+<option value="2">
+2 Days 1 Night
+</option>
+
+<option value="3">
+3 Days 2 Nights
+</option>
+
+<option value="4">
+4 Days 3 Nights
+</option>
+
+</select>
+
+<label>
+
+Budget:
+
+₹2000 - ₹15000
+
+</label>
+
+<input
+type="range"
+id="budget"
+min="2000"
+max="15000"
+step="500"
+value="5000"
+>
+
+<p id="budgetValue">
+
+₹5000
+
+</p>
+
+<button id="generate">
+
+Generate Plan
+
+</button>
+
+</section>
+
+<section id="result">
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
