@@ -157,3 +157,18 @@ opacity:1;
 transform:translateY(0);
 }
 }
+@media(max-width:768px){
+
+.overlay h1{
+font-size:40px;
+}
+
+.search,
+select{
+width:95%;
+}
+
+.day-card{
+width:95%;
+}
+}
